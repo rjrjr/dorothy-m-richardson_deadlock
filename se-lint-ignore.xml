@@ -6,4 +6,10 @@
 			<reason>No missing puncutation, perhaps lint check confused by &lt;/em&gt;.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-5.xhtml">
+		<ignore code="y-024">
+			<line>33</line>
+			<reason>No em dash here, not a parenthetical. Mimicking speaker's cadence.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
